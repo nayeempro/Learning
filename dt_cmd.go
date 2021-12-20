@@ -3,12 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	/*fmt.Println(true && true)
-	fmt.Println(true && false)
-	fmt.Println(true || true)
-	fmt.Println(true || false)
-	fmt.Println(!true) */
-	var chr rune = 'k'
-	fmt.Println(chr)
-	fmt.Printf("%c", chr)
+
+  fmt.Println("Enter the name & age: ")
+  var name string
+  var age int
+  fmt.Scanf("%s %d", &name ,&age)
+  fmt.Printf("Your name is %s and age is %d", name ,age)
 }
